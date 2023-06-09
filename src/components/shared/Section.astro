@@ -1,0 +1,18 @@
+---
+interface Props {
+  imageUrl: string
+  imageTitle: string
+}
+
+const { imageTitle, imageUrl } = Astro.props
+---
+
+<section class="my-60 max-w-page-max-width mx-auto">
+  <div class="flex gap-12 items-start justify-between">
+    <div>
+      <slot />
+    </div>
+
+    <img src={imageUrl} alt={imageTitle} />
+  </div>
+</section>
