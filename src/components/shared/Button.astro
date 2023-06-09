@@ -1,1 +1,14 @@
-<button class="bg-white/20 py-3 px-6 rounded-lg"><slot /></button>
+---
+interface Props {
+  variant: "primary" | "secondary"
+}
+
+const baseClassName = "py-3 px-6 rounded-lg border-2 border-white/20"
+const { variant } = Astro.props
+---
+
+<button
+  class={`${
+    variant === "primary" ? "bg-white/20" : "bg-transparent"
+  } ${baseClassName}`}><slot /></button
+>
