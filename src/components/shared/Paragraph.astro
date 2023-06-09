@@ -1,0 +1,11 @@
+---
+interface Props {
+  centered?: boolean
+}
+
+const { centered = false } = Astro.props
+---
+
+<p class={`${centered ? "mx-auto" : ""} max-w-2xl text-lg text-gray-300`}>
+  <slot />
+</p>
