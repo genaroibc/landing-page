@@ -1,47 +1,26 @@
-# Astro Starter Kit: Minimal
+# Landing Page
 
-```
-npm create astro@latest -- --template minimal
-```
+🔗 [Visit the live site](https://landing-page-genaro-jorge.netlify.app/)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 💡 Credits
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[Inspired on this design on Dribble](https://dribbble.com/shots/5543012-Space-Exploration-Landing-Page-Illustration/attachments/1199037?mode=media)
 
-## 🚀 Project Structure
+[Hero image by upklyak on Freepik](https://www.freepik.com/free-vector/arizona-night-desert-landscape-natural-wild-west-background-with-coyote-pack-silhouettes-run-through-cacti-rocks-cloudy-sky-with-full-moon-shining-game-scene-cartoon-vector-illustration_21050353.htm#query=illustrations&position=0&from_view=keyword&track=sph)
 
-Inside of your Astro project, you'll see the following folders and files:
+[Footer image by upklyak on Freepik](https://www.freepik.com/free-vector/desert-landscape-with-rocks-tropical-tree-plants-cactuses-night_10949899.htm)
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+[First products image by storyset on Freepik](https://www.freepik.com/free-vector/discovery-concept-illustration_14201181.htm#query=characted%20watching%20planet&position=48&from_view=search&track=ais)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+[Second products image by storyset on Freepik](https://www.freepik.com/free-vector/counting-stars-concept-illustration_12079897.htm#from_view=detail_alsolike#position=0)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+This project was created with educational purposes only. All copyright and intellectual property rights belong to their respective owners.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🫂 Contributors
 
-## 🧞 Commands
+@genaroibc and @jsha64
 
-All commands are run from the root of the project, from a terminal:
+## 🚀 Stack
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Astro
+- TailwindCSS
