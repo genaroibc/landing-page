@@ -2,13 +2,18 @@
 interface Props {
   imageUrl: string
   imageTitle: string
+  direction?: "ltr" | "rtl"
 }
 
-const { imageTitle, imageUrl } = Astro.props
+const { imageTitle, imageUrl, direction = "ltr" } = Astro.props
 ---
 
 <section class="my-60 max-w-page-max-width mx-auto">
-  <div class="flex gap-12 items-start justify-between">
+  <div
+    class={`${
+      direction === "rtl" ? "flex-row-reverse" : "flex-row"
+    } flex gap-12 items-start justify-between`}
+  >
     <div>
       <slot />
     </div>
