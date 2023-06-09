@@ -1,56 +1,60 @@
+---
+import Logo from "./Logo.astro"
+---
+
 <footer
   class="bg-cover bg-no-repeat bg-top bg-black"
   style="background-image: url(/footer-bg.jpg);"
 >
-  <div class="pt-40 text-center pb-12 px-4">
-    <p class="text-center">
-      <a
-        href="https://www.freepik.com/free-vector/arizona-night-desert-landscape-natural-wild-west-background-with-coyote-pack-silhouettes-run-through-cacti-rocks-cloudy-sky-with-full-moon-shining-game-scene-cartoon-vector-illustration_21050353.htm#query=illustrations&position=0&from_view=keyword&track=sph"
-        >Image by upklyak</a
-      > on Freepik
-    </p>
-    <p>
-      <a
-        href="https://www.freepik.com/free-vector/desert-landscape-with-rocks-tropical-tree-plants-cactuses-night_10949899.htm"
-        >Image by upklyak</a
-      > on Freepik
-    </p>
-
-    <p>
-      <a
-        href="https://www.freepik.com/free-vector/discovery-concept-illustration_14201181.htm#query=characted%20watching%20planet&position=48&from_view=search&track=ais"
-        >Image by storyset</a
-      > on Freepik
-    </p>
-    <div>
-      <h1>SPACED</h1>
-      <p>UMLINITED STAR WARS AWAITS YOU, SIR!!</p>
+  <div
+    class="pt-40 text-center pb-12 px-4 flex gap-12 items-start justify-between max-w-page-max-width mx-auto"
+  >
+    <div class="flex flex-col gap-4 items-center justify-center">
+      <span class="max-w-xs">
+        <Logo />
+      </span>
+      <p class="text-gray-300">UNLIMITED STAR WARS AWAITS YOU, SIR!!</p>
     </div>
+
     <div>
-      <ul>
-        <li>Explore</li>
-        <br />
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Privacy Policy</li>
-      </ul>
-      <ul>
-        <li>Explore</li>
-        <br />
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Privacy Policy</li>
-      </ul>
-      <ul>
-        <li>Explore</li>
-        <br />
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Privacy Policy</li>
-      </ul>
+      <nav class="flex gap-12 items-center">
+        <div class="text-left">
+          <h6 class="text-violet-400 font-medium mb-6">Explore</h6>
+          <ul class="flex flex-col gap-4">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="text-left">
+          <h6 class="text-violet-400 font-medium mb-6">Credits</h6>
+          <ul class="flex flex-col gap-4">
+            <li>
+              <a
+                href="https://www.freepik.com/free-vector/arizona-night-desert-landscape-natural-wild-west-background-with-coyote-pack-silhouettes-run-through-cacti-rocks-cloudy-sky-with-full-moon-shining-game-scene-cartoon-vector-illustration_21050353.htm#query=illustrations&position=0&from_view=keyword&track=sph"
+                >Hero image by upklyak</a
+              > on Freepik
+            </li>
+            <li>
+              <a
+                href="https://www.freepik.com/free-vector/desert-landscape-with-rocks-tropical-tree-plants-cactuses-night_10949899.htm"
+                >Footer image by upklyak</a
+              > on Freepik
+            </li>
+            <li>
+              <a
+                href="https://www.freepik.com/free-vector/discovery-concept-illustration_14201181.htm#query=characted%20watching%20planet&position=48&from_view=search&track=ais"
+                >Producs image by storyset</a
+              > on Freepik
+            </li>
+            <li>
+              Developed by <a href="https://gena.dev">Genaro Bonavita</a> and Jorge
+              in 2023
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
 </footer>
