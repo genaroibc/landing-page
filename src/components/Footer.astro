@@ -7,9 +7,9 @@ import Logo from "./Logo.astro"
   style="background-image: url(/footer-bg.jpg);"
 >
   <div
-    class="pt-40 text-center pb-12 px-4 flex gap-12 items-start justify-between max-w-page-max-width mx-auto"
+    class="pt-40 text-center pb-12 px-4 flex gap-12 items-start justify-around max-w-page-max-width mx-auto"
   >
-    <div class="flex flex-col gap-4 items-center justify-center">
+    <div class="flex flex-col gap-4 items-center justify-start">
       <span class="max-w-xs">
         <Logo />
       </span>
@@ -18,15 +18,6 @@ import Logo from "./Logo.astro"
 
     <div>
       <nav class="flex gap-12 items-center">
-        <div class="text-left">
-          <h6 class="text-violet-400 font-medium mb-6">Explore</h6>
-          <ul class="flex flex-col gap-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Privacy Policy</li>
-          </ul>
-        </div>
         <div class="text-left">
           <h6 class="text-violet-400 font-medium mb-6">Credits</h6>
           <ul class="flex flex-col gap-4">
@@ -49,6 +40,12 @@ import Logo from "./Logo.astro"
               > on Freepik
             </li>
             <li>
+              <a
+                href="https://dribbble.com/shots/5543012-Space-Exploration-Landing-Page-Illustration/attachments/1199037?mode=media"
+                >Inspired on this design</a
+              > on Dribble
+            </li>
+            <li>
               Developed by <a href="https://gena.dev">Genaro Bonavita</a> and Jorge
               in 2023
             </li>
@@ -56,5 +53,14 @@ import Logo from "./Logo.astro"
         </div>
       </nav>
     </div>
+  </div>
+  <div
+    class="text-center flex flex-col gap-4 items-center justify-center py-20 font-bold"
+  >
+    <p>Website created with educational purpuoses only</p>
+    <p>
+      All copyright and intellectual property rights belong to their respective
+      owners.
+    </p>
   </div>
 </footer>
